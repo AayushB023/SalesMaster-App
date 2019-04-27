@@ -1,0 +1,4 @@
+/home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/assets/app/vendor.js
+/home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/assets/app/tns-java-classes.js
+/home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/assets/app/bundle.js
+/home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/assets/app/starter.js

@@ -1,0 +1,222 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+MERGED from [com.android.support:design:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/20a50ff95298c541e11966e4238c945a/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/b95c0ce5a4bb45f1bfc2f53baf1519a4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/41ecdefc618ce0a84247e079e8ce3250/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:multidex:1.0.2] /home/hp/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/ac8b774b3683b00caac3667ad1ec66d3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/cace9fc3e75865428a5c7f8fe9ee7ec5/AndroidManifest.xml:17:1-22:12
+MERGED from [:nativescript-optimized-with-inspector:] /home/hp/.gradle/caches/transforms-1/files-1.1/nativescript-optimized-with-inspector.aar/a42f4bcfe10a396366076d3f43622f80/AndroidManifest.xml:2:1-11:12
+MERGED from [:TNSListView-release:] /home/hp/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/b040abd2ef8810dd89fe2627df115dfe/AndroidManifest.xml:2:1-11:12
+MERGED from [:TNSCore-release:] /home/hp/.gradle/caches/transforms-1/files-1.1/TNSCore-release.aar/867eeab732f9ba1e3dfbbf18ae6b3949/AndroidManifest.xml:2:1-11:12
+MERGED from [:widgets-release:] /home/hp/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/06e820d52c889c54761af1b578709ca3/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/783049e41cf58a5f4d74a9e8a1c038a4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/89525e97549e1249aa53bd61f6090d1a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/204f8c6d7a83582e4829d9562c6eb047/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/695c8711f3b36332ffea0c6484b7e1de/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/1a9ef2c37196b33e4ae020c502cab1f8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/97ce9a9789e05eb40cc7e7705a1202e1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/e841dd6f85a97a9b64cf8cf989c35eb6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/cec4cf6fff61c11cddf449e3ce44329f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/a5f0152c9181fecb0a1c31cce84b02eb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/867a3178f22556820a2fc216a19e0150/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/d54fb25389aa87da08c5211a3c25fee6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/86de102e1ff61efa6dcefdbc89985385/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/b9044adf139dda063dcfe1733ee031db/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/ff342608c95545a290bb70e759ef2a9c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/8656007084e2bdc730f6a84f8621662c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/10546a7dc46c74508721e49a04b075da/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/58da25e1dbce8d987a8233708f74b636/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/242e2ac9feda68f5fc2fb6277942e846/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/4a33cb3bd1dc8cfafe2c20f631638a88/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/hp/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/370b19bbac271e16f5d5f2863dcf7d39/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/e37a4a2f18c5c5dff8c975900edf870a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/ada6795716e4426eba7ada3b28d3a33b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/805599268314e30899fd45ece1e74c68/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/hp/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/7c8f6202c029b475c1aa154a65bd0bbd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/7cac99ebdb646da8f8d8962ed7e90f4b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/hp/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/ede5e17428edad8e7f5f9be766b0cf78/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/hp/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/f9c5cd3a28783d49667c042f998a7565/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/hp/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/4f228618647a168deff126d19c6e8782/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+	package
+		ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:3:2-40
+		INJECTED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:5:2-27
+		INJECTED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:4:2-25
+		INJECTED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml
+supports-screens
+ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:7:2-11:33
+	android:largeScreens
+		ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:10:3-30
+	android:smallScreens
+		ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:8:3-30
+	android:normalScreens
+		ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:9:3-31
+	android:xlargeScreens
+		ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:11:3-31
+uses-sdk
+ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+INJECTED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+INJECTED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+MERGED from [com.android.support:design:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/20a50ff95298c541e11966e4238c945a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/20a50ff95298c541e11966e4238c945a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/b95c0ce5a4bb45f1bfc2f53baf1519a4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/b95c0ce5a4bb45f1bfc2f53baf1519a4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/41ecdefc618ce0a84247e079e8ce3250/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/41ecdefc618ce0a84247e079e8ce3250/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:multidex:1.0.2] /home/hp/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/ac8b774b3683b00caac3667ad1ec66d3/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /home/hp/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/ac8b774b3683b00caac3667ad1ec66d3/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/cace9fc3e75865428a5c7f8fe9ee7ec5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/cace9fc3e75865428a5c7f8fe9ee7ec5/AndroidManifest.xml:20:5-44
+MERGED from [:nativescript-optimized-with-inspector:] /home/hp/.gradle/caches/transforms-1/files-1.1/nativescript-optimized-with-inspector.aar/a42f4bcfe10a396366076d3f43622f80/AndroidManifest.xml:7:5-9:41
+MERGED from [:nativescript-optimized-with-inspector:] /home/hp/.gradle/caches/transforms-1/files-1.1/nativescript-optimized-with-inspector.aar/a42f4bcfe10a396366076d3f43622f80/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSListView-release:] /home/hp/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/b040abd2ef8810dd89fe2627df115dfe/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSListView-release:] /home/hp/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/b040abd2ef8810dd89fe2627df115dfe/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSCore-release:] /home/hp/.gradle/caches/transforms-1/files-1.1/TNSCore-release.aar/867eeab732f9ba1e3dfbbf18ae6b3949/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSCore-release:] /home/hp/.gradle/caches/transforms-1/files-1.1/TNSCore-release.aar/867eeab732f9ba1e3dfbbf18ae6b3949/AndroidManifest.xml:7:5-9:41
+MERGED from [:widgets-release:] /home/hp/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/06e820d52c889c54761af1b578709ca3/AndroidManifest.xml:7:5-9:41
+MERGED from [:widgets-release:] /home/hp/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/06e820d52c889c54761af1b578709ca3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/783049e41cf58a5f4d74a9e8a1c038a4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/783049e41cf58a5f4d74a9e8a1c038a4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/89525e97549e1249aa53bd61f6090d1a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/89525e97549e1249aa53bd61f6090d1a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/204f8c6d7a83582e4829d9562c6eb047/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/204f8c6d7a83582e4829d9562c6eb047/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/695c8711f3b36332ffea0c6484b7e1de/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/695c8711f3b36332ffea0c6484b7e1de/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/1a9ef2c37196b33e4ae020c502cab1f8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/1a9ef2c37196b33e4ae020c502cab1f8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/97ce9a9789e05eb40cc7e7705a1202e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/97ce9a9789e05eb40cc7e7705a1202e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/e841dd6f85a97a9b64cf8cf989c35eb6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/e841dd6f85a97a9b64cf8cf989c35eb6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/cec4cf6fff61c11cddf449e3ce44329f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/cec4cf6fff61c11cddf449e3ce44329f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/a5f0152c9181fecb0a1c31cce84b02eb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/a5f0152c9181fecb0a1c31cce84b02eb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/867a3178f22556820a2fc216a19e0150/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/867a3178f22556820a2fc216a19e0150/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/d54fb25389aa87da08c5211a3c25fee6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/d54fb25389aa87da08c5211a3c25fee6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/86de102e1ff61efa6dcefdbc89985385/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/86de102e1ff61efa6dcefdbc89985385/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/b9044adf139dda063dcfe1733ee031db/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/b9044adf139dda063dcfe1733ee031db/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/ff342608c95545a290bb70e759ef2a9c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/ff342608c95545a290bb70e759ef2a9c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/8656007084e2bdc730f6a84f8621662c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/8656007084e2bdc730f6a84f8621662c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/10546a7dc46c74508721e49a04b075da/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/10546a7dc46c74508721e49a04b075da/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/58da25e1dbce8d987a8233708f74b636/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/58da25e1dbce8d987a8233708f74b636/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/242e2ac9feda68f5fc2fb6277942e846/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/242e2ac9feda68f5fc2fb6277942e846/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/4a33cb3bd1dc8cfafe2c20f631638a88/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/4a33cb3bd1dc8cfafe2c20f631638a88/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/hp/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/370b19bbac271e16f5d5f2863dcf7d39/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/hp/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/370b19bbac271e16f5d5f2863dcf7d39/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/e37a4a2f18c5c5dff8c975900edf870a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/e37a4a2f18c5c5dff8c975900edf870a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/ada6795716e4426eba7ada3b28d3a33b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/ada6795716e4426eba7ada3b28d3a33b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/805599268314e30899fd45ece1e74c68/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/805599268314e30899fd45ece1e74c68/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/hp/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/7c8f6202c029b475c1aa154a65bd0bbd/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/hp/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/7c8f6202c029b475c1aa154a65bd0bbd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/7cac99ebdb646da8f8d8962ed7e90f4b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/7cac99ebdb646da8f8d8962ed7e90f4b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/hp/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/ede5e17428edad8e7f5f9be766b0cf78/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/hp/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/ede5e17428edad8e7f5f9be766b0cf78/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/hp/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/f9c5cd3a28783d49667c042f998a7565/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/hp/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/f9c5cd3a28783d49667c042f998a7565/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/hp/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/4f228618647a168deff126d19c6e8782/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/hp/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/4f228618647a168deff126d19c6e8782/AndroidManifest.xml:20:5-44
+INJECTED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+INJECTED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+	android:targetSdkVersion
+		ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:15:3-32
+		INJECTED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:14:3-29
+		INJECTED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:17:2-76
+	android:name
+		ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:17:19-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:18:2-77
+	android:name
+		ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:18:19-75
+uses-permission#android.permission.INTERNET
+ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:19:2-63
+	android:name
+		ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:19:19-61
+application
+ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:21:2-42:16
+MERGED from [com.android.support:design:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/20a50ff95298c541e11966e4238c945a/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/20a50ff95298c541e11966e4238c945a/AndroidManifest.xml:22:5-20
+MERGED from [:widgets-release:] /home/hp/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/06e820d52c889c54761af1b578709ca3/AndroidManifest.xml:11:5-12:19
+MERGED from [:widgets-release:] /home/hp/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/06e820d52c889c54761af1b578709ca3/AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support:support-compat:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/10546a7dc46c74508721e49a04b075da/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/10546a7dc46c74508721e49a04b075da/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/58da25e1dbce8d987a8233708f74b636/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/58da25e1dbce8d987a8233708f74b636/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/hp/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/10546a7dc46c74508721e49a04b075da/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:25:3-35
+	android:icon
+		ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:24:3-32
+	android:allowBackup
+		ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:23:3-29
+	android:theme
+		ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:26:3-34
+	android:name
+		ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:22:3-49
+activity#com.tns.NativeScriptActivity
+ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:28:3-40:14
+	android:label
+		ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:30:4-49
+	android:configChanges
+		ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:31:4-65
+	android:theme
+		ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:32:4-44
+	android:name
+		ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:29:4-47
+meta-data#SET_THEME_ON_LAUNCH
+ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:34:4-87
+	android:resource
+		ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:34:50-84
+	android:name
+		ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:34:15-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:36:4-39:20
+action#android.intent.action.MAIN
+ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:37:5-57
+	android:name
+		ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:37:13-54
+category#android.intent.category.LAUNCHER
+ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:38:5-65
+	android:name
+		ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:38:15-62
+activity#com.tns.ErrorReportActivity
+ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:41:3-57
+	android:name
+		ADDED from /home/hp/Documents/Native Projects/project-name/platforms/android/app/src/main/AndroidManifest.xml:41:13-55
