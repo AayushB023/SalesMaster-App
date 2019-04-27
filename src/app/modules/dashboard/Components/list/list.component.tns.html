@@ -1,0 +1,20 @@
+<ActionBar class="action-bar">
+    
+    <Label text="Go Back" text-align="left"></Label>
+    <Label class="action-bar-title" text="Team's Revenue"></Label>
+    <ActionItem text="Hello" ></ActionItem>
+</ActionBar>
+
+<RadListView class="list-group" [items]="teams" class="list-group" (itemTap)="ItemSelected($event)">
+    <!-- <PullToRefresh (refresh)="refreshMe($event)"> -->
+    <ng-template let-item="item">
+        <StackLayout class="list-group-item" orientation="vertical">
+            <GridLayout>
+                <Label [text]="item.team_name" ></Label>
+                <Label [text]="item.amount" style.textAlignment="right" ></Label>
+            </GridLayout>
+            <StackLayout height="1" backgroundColor ="black"></StackLayout>
+        </StackLayout>
+    </ng-template>
+    <!-- </PullToRefresh> -->
+</RadListView>
