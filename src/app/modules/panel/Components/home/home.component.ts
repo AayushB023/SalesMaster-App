@@ -13,10 +13,10 @@ import { TeamServiceService } from '../../../../../services/team-service.service
 })
 export class HomeComponent implements OnInit {
 title = 'app-name';
-
+signUpForm : FormGroup;
 private database: any;
 public people: Array<any>;
-
+submitted= false;
 constructor (private fb: FormBuilder, private teamService: TeamServiceService, private router: Router) {
   // this.people = [];
   // (new Sqlite("my.db").then(db => {
@@ -24,13 +24,16 @@ constructor (private fb: FormBuilder, private teamService: TeamServiceService, p
   // }))
 }
 
-  signUpForm = this.fb.group({
-    email: ['saral@jungleworks.com', Validators.required],
-    password: ['123456', Validators.required]
-});
+  
 
 
   submit = function(data) {
+    this.submitted = true; 
+
+//stop the process here if form is invalid 
+if (this.signUpForm.invalid) { 
+return; 
+}
 // tslint:disable-next-line: no-shadowed-variable
       this.teamService.login(this.signUpForm.value).subscribe(data => {
         this.userdata = data;
@@ -49,6 +52,10 @@ constructor (private fb: FormBuilder, private teamService: TeamServiceService, p
     };
 
     ngOnInit() {
+      this.signUpForm = this.fb.group({
+        email: ['saral@jungleworks.com', Validators.required],
+        password: ['123456', Validators.required]
+    });
     }
 
   }

@@ -8,7 +8,7 @@ import { AuthDashService } from '../auth/auth-dash.service';
 
 
 export const routes: Routes = [
-  { path: '', component: HomeComponent},
+  { path: '', component: HomeComponent, canActivate: [AuthDashService]},
   { path: 'list', component: ListComponent, canActivate: [AuthGuardService], children: [
     { path: 'editList/:id', component: EditTeamComponent, canActivate: [AuthGuardService]}
   ] },

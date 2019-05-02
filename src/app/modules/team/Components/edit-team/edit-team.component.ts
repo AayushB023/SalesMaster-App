@@ -6,7 +6,7 @@ import { FormGroup, FormControl, Validators, FormBuilder, ReactiveFormsModule  }
 import { Router } from '@angular/router';
 import { ActivatedRoute } from '@angular/router';
 import { ViewChild, ElementRef} from '@angular/core';
-import { Page } from 'tns-core-modules/ui/page/page';
+// import { Page } from 'tns-core-modules/ui/page';
 
 
 @Component({
@@ -20,9 +20,12 @@ export class EditTeamComponent implements OnInit {
   id;
   team_name;
   amount;
+  submitted = false;
+  title: string;
+  textn: string;
   constructor (private fb: FormBuilder, private shareData: ShareDataService,
     private teamService: TeamServiceService, private router: ActivatedRoute, 
-    private route: Router, private _page: Page) {
+    private route: Router) {
   }
   TeamForm = this.fb.group({
     team_id: this.router.snapshot.queryParamMap.get('team_id'),
@@ -32,7 +35,15 @@ export class EditTeamComponent implements OnInit {
 
   ngOnInit() {
     console.log('dgfhjkl');
-    this._page.actionBarHidden = true; 
+    if ( this.router.snapshot.queryParamMap.get('teamName')== '' && this.router.snapshot.queryParamMap.get('amount')== '')
+  {
+    this.title = 'Add New Team';
+    this.textn = 'Add Team';
+  } 
+  else {
+    this.title = 'Update Team';
+    this.textn = 'Update';
+  }   // this._page.actionBarHidden = true; 
     this.teams = this.shareData.getOption();
     this.id = this.router.snapshot.queryParamMap.get('team_id');
     this.team_name = this.router.snapshot.queryParamMap.get('teamName');
@@ -41,10 +52,11 @@ export class EditTeamComponent implements OnInit {
     console.log(this.teams);
   }
   submit = function( teams) {
+    
     if ( this.router.snapshot.queryParamMap.get('teamName')== '' && this.router.snapshot.queryParamMap.get('amount')== '') {
       console.log('jara h');
       this.teamService.addTeam(teams).subscribe(response => {
-        // console.log(response);
+console.log(response);
         if(this.TeamForm.controls.team_name.valid && this.TeamForm.controls.amount.valid){
           let data = {team_name: this.TeamForm.controls.team_name.value, amount: this.TeamForm.controls.amount.value};
           console.log(data);
@@ -54,7 +66,7 @@ export class EditTeamComponent implements OnInit {
             if (response && response.status === 401) { }
 // tslint:disable-next-line: one-line
             else {
-              alert('Team Successfully');
+              alert('Team Successfully Added');
               location.reload();
               this.closeAddExpenseModal.nativeElement.click();
             }

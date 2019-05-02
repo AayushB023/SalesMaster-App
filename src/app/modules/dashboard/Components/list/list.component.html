@@ -21,9 +21,11 @@
                       <div [attr.id]="'question'+i" class="panel-collapse collapse" style="height: 0px;">
                           <div class="panel-body">
                                   
-                                     <button type="submit" data-toggle="modal" data-target="#myModal" (click)="modalview(i,teams[i].team_name,teams[i].amount, teams[i].team_id)">Edit</button> 
+                                     <!-- <button type="submit" data-toggle="modal" data-target="#myModal" (click)="modalview(i,teams[i].team_name,teams[i].amount, teams[i].team_id)">Edit</button>  -->
+                                     <a data-toggle="modal" data-target="#myModal" (click)="modalview(i,teams[i].team_name,teams[i].amount, teams[i].team_id)">Edit</a> 
+                                      <a class="anchor" (click)="delete(teams[i].team_id)">Delete</a>
                                      <!--<button class="btn btn-lg btn-outline-primary" (click)="open()">Launch demo modal</button> -->
-                                      <button type="submit" (click)="delete(teams[i].team_id)">Delete</button> 
+                                      <!-- <button type="submit" (click)="delete(teams[i].team_id)">Delete</button>  -->
                           </div>
                       </div>
                   </div>
