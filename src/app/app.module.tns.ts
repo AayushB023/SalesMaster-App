@@ -16,13 +16,17 @@ import { NativeScriptHttpClientModule } from 'nativescript-angular/http-client';
 import { TeamServiceService } from '../services/team-service.service';
 import { EditTeamComponent } from './modules/team/Components/edit-team/edit-team.component';
 import { ShareDataService } from '../services/share-data.service';
+import { FooterComponent } from './modules/dashboard/Components/footer/footer.component';
+import { HeaderComponent } from './modules/dashboard/Components/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ListComponent,
-    EditTeamComponent
+    EditTeamComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     NativeScriptModule,
@@ -32,7 +36,7 @@ import { ShareDataService } from '../services/share-data.service';
     NativeScriptUIListViewModule,
     FormsModule,
     ReactiveFormsModule,
-    // NativeScriptRouterModule.forRoot(routes),
+    NativeScriptRouterModule.forRoot(routes),
     AppRoutingModule,
   ],
   providers: [TeamServiceService, ShareDataService],

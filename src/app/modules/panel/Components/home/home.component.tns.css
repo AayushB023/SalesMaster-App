@@ -1,0 +1,25 @@
+.page {
+    align-items: center;
+    flex-direction: column;
+  }
+  .form {
+    margin-left: 30;
+    margin-right: 30;
+    vertical-align: middle;
+  }
+  TextField{
+    margin-left: 16;
+    margin-right: 16;
+    margin-bottom: 10;
+    color: black;
+  }
+  Image {
+    margin-top: 10%;
+}
+.text-label { 
+  margin-top: 25; 
+  margin-bottom: 10; 
+  
+  color:#39ace7;; 
+  font: bold; 
+  } 

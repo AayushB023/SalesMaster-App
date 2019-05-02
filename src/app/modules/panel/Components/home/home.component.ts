@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { Validators,AbstractControl, FormBuilder, FormGroup} from '@angular/forms';
+import { Validators, AbstractControl, FormBuilder, FormGroup} from '@angular/forms';
 import { TeamServiceService } from '../../../../../services/team-service.service';
 // import * as localStorage from 'nativescript-localstorage';
 // var Sqlite = require('nativescript-sqlite');
@@ -31,13 +31,15 @@ constructor (private fb: FormBuilder, private teamService: TeamServiceService, p
 
 
   submit = function(data) {
-      this.teamService.login(this.signUpForm.value).subscribe( data => {
+// tslint:disable-next-line: no-shadowed-variable
+      this.teamService.login(this.signUpForm.value).subscribe(data => {
         this.userdata = data;
         console.log(this.userdata);
 
+// tslint:disable-next-line: triple-equals
         if (this.userdata && this.userdata.status == 200) {
-          console.log('Sorryif');
-          require( 'nativescript-localstorage' );
+          // console.log('Sorryif');
+          // require( 'nativescript-localstorage' );
           localStorage.setItem('accessToken', data.body.access_token);
           this.router.navigate(['/list']);
         } else {

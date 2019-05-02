@@ -6,3 +6,17 @@
 .descriptionLabel {
     font-size: 14;
 }
+#footer{
+    border: 1px black;
+}
+#a1{ 
+    font-size: 16; 
+    color: #39ace7; 
+    } 
+    
+    #a2{ 
+    font-size: 20; 
+    }
+    #list{
+        font-weight: bold;
+    }

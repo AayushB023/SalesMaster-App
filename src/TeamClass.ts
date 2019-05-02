@@ -1,1 +1,5 @@
-export class Team { }
+export class Team { 
+    team_id: string;
+    team_name: string;
+    amount: string;
+}

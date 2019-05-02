@@ -22,17 +22,23 @@ export class TeamServiceService {
     return this.http.post<any>(environment.API_URL + 'user/logout', { 'access_token': accessToken });
   }
 
-  // updateTeam(data): Observable<any> {
-  //   let accessToken = localStorage.getItem('accessToken');
-  //   return this.http.post<any>(environment.API_URL + 'teams/edit',
-  //     Object.assign({ 'access_token': accessToken }, data));
-  // }
+  updateTeam(data): Observable<any> {
+    let accessToken = localStorage.getItem('accessToken');
+    return this.http.post<any>(environment.API_URL + 'teams/edit',
+    (<any>Object).assign({ 'access_token': accessToken }, data));
+  }
 
-  // deleteTeam(data): Observable<any> {
-  //   let accessToken = localStorage.getItem('accessToken');
-  //   return this.http.post<any>(environment.API_URL + 'teams/delete',
-  //     Object.assign({ 'access_token': accessToken }, data));
-  // }
+  addTeam(data): Observable<any> {
+    let accessToken = localStorage.getItem('accessToken');
+    return this.http.post<any>(environment.API_URL + 'teams/add',
+    (<any>Object).assign({ 'access_token': accessToken }, data));
+  }
+
+  deleteTeam(data): Observable<any> {
+    let accessToken = localStorage.getItem('accessToken');
+    return this.http.post<any>(environment.API_URL + 'teams/delete',
+    (<any>Object).assign({ 'access_token': accessToken }, data));
+  }
 
   constructor(private http: HttpClient) {
 

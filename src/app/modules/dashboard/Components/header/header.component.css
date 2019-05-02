@@ -1,0 +1,47 @@
+
+    
+   
+    h2{ 
+    
+        margin-left:10%;
+        margin-top: 0;
+        font-size: 20px;
+        color: black;
+        
+        } 
+    .menu{
+        
+        height:20px ;
+        padding-top: 30px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    .dropdown{ 
+        margin-left: 65%; 
+        } 
+        .dropmenu{
+            margin-top: -2%;
+        }
+        @media only screen and (max-width: 400px) {
+            .dropmenu{
+                margin-top: -10%;
+            }
+            
+        } 
+        @media only screen and (max-width: 300px) {
+            .dropmenu{
+                margin-top: -12%;
+            }
+        } 
+        @media only screen and (max-width: 300px) {
+            .dropdown{
+                margin-top: -13%;
+            }
+            
+        } 
+        @media only screen and (max-width: 800px) {
+            .dropdown{
+                margin-top: -3%;
+            }
+        } 

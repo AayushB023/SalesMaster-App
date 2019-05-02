@@ -1,46 +1,37 @@
-<div class ="menu"> 
-    <h2>Sales Master App</h2> 
-    <ul class="nav justify-content-end menu-right"> 
-    
-    
-    <li class="nav-item dropdown"> 
-    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" ></a> 
-    
-    <!--Dropdown Menu--> 
-    <div class="dropdown-menu"> 
-    <a class="dropdown-item" (click)="addTeam()">Add Team</a> 
-    <div class="dropdown-divider"></div> 
-    <a class="dropdown-item" (click)="logout()">Logout</a> 
-    </div> 
-    </li> 
-    </ul> </div> 
-    <br><br> 
-    <div class="container" id="box"> 
-    <div id="accordion" class="accordion" > 
-    <div class="card mb-0"> 
-    <a class="card-header collapsed" data-toggle="collapse" href="#collapseOne1"> 
-    <div class="card-title"> 
-    surbhi 
-    </div> 
-    </a> 
-    <div id="collapseOne1" class="card-body collapse" data-parent="#accordion" > 
-    <form [formGroup]="parentFormGroup"> 
-    <div class="flex-container"> 
-    <label> 
-    Team Name<br> 
-    <input type="text" formControlName="team"> 
-    </label> 
-    <br><br><br> 
-    <label> 
-    Amount<br> 
-    <input type="number" formControlName="amount"> 
-    </label> 
-    </div> 
-    <br><br> 
-    </form> 
-    </div><br> 
-    
-    
-    </div> 
-    </div> 
-    </div>
+<div class ="list">
+    <app-header></app-header>
+  </div>
+    <br><br> <br>
+  <br>
+    <div>
+        
+    <div *ngFor="let team of teams; let i =index;">
+      
+     
+  
+          <div class="container ">
+              <div class="panel-group" id="faqAccordion">
+                  <div class="panel panel-default ">
+                      <div class="panel-heading accordion-toggle question-toggle collapsed" data-toggle="collapse" data-parent="#faqAccordion" [attr.data-target]="'#question'+i">
+                           <h4 class="panel-title">
+                                  {{teams[i].team_name}}<span>{{teams[i].amount | currency:'USD'}}</span>
+                        </h4>
+          
+                      </div>
+                      <div [attr.id]="'question'+i" class="panel-collapse collapse" style="height: 0px;">
+                          <div class="panel-body">
+                                  
+                                     <button type="submit" data-toggle="modal" data-target="#myModal" (click)="modalview(i,teams[i].team_name,teams[i].amount, teams[i].team_id)">Edit</button> 
+                                     <!--<button class="btn btn-lg btn-outline-primary" (click)="open()">Launch demo modal</button> -->
+                                      <button type="submit" (click)="delete(teams[i].team_id)">Delete</button> 
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                </div>
+                <router-outlet></router-outlet> 
+                </div>
+                
+                <app-footer></app-footer>
+               <!-- <div> <h4>Total amount</h4><span>{{totalAmount | currency:'USD'}}</span></div> -->
+                

@@ -40,4 +40,3 @@
 /home/hp/Documents/Native Projects/project-name/platforms/android/app/build/exploded-dependencies/c1beda7e23652ad8c48c30dd66ecda0b/classes.jar
 /home/hp/Documents/Native Projects/project-name/platforms/android/app/build/exploded-dependencies/d8c251f5c66785afa390582611184356/classes.jar
 /home/hp/Documents/Native Projects/project-name/platforms/android/app/build/exploded-dependencies/80a9b434a44ec1f6a750d408361201af/classes.jar
-/home/hp/Documents/Native Projects/project-name/platforms/android/app/build/intermediates/javac/debug

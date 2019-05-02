@@ -1,3 +1,47 @@
-<p>
-  edit-team works!
-</p>
+<!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> -->
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" routerLink="/list">&times;</button>
+        <h4 class="modal-title"></h4>
+      </div>
+      <div class="modal-body">
+        <form [formGroup]="TeamForm" >
+          <div class="form-group">
+              
+        
+              
+              <label>Team Name</label>
+              
+              <input type="text" formControlName="team_name"  class="form-control" [ngClass]="{ 'is-invalid': submitted &amp;&amp; editForm.controls.teamName.errors }" />
+              <!-- <div *ngIf="submitted &amp;&amp; editForm.controls.teamName.errors" class="text-danger">
+                  <div *ngIf="editForm.controls.teamName.errors.required">Team name is required</div>
+                  
+              </div> -->
+          
+          </div>
+           <div class="form-group">
+            <label>Revenue</label>
+            <input type="text" formControlName="amount"  class="form-control" [ngClass]="{ 'is-invalid': submitted &amp;&amp; editForm.controls.revenue.errors }"  />
+            <!-- <div *ngIf="submitted &amp;&amp; editForm.controls.revenue.errors" class="text-danger">
+                <div *ngIf="editForm.controls.revenue.errors.required">Revenue is required</div>
+                
+            </div> -->
+         </div>
+         <div class="form-group">
+          <button class="btn btn-primary login-btn" (click)="submit(TeamForm.value)" routerLink="/list">submit</button>
+         </div>
+    </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" #closeAddExpenseModal routerLink="/list">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>

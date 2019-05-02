@@ -5,6 +5,7 @@
     "@angular/core": true,
     "@angular/forms": true,
     "@angular/http": true,
+    "@angular/language-service": true,
     "@angular/platform-browser": true,
     "@angular/platform-browser-dynamic": true,
     "@angular/router": true,

@@ -1,11 +1,11 @@
 <ActionBar class="action-bar">
-    <NavigationButton text="Go Back" android.systemIcon="ic_menu_back" tap="onNavBtnTap"></NavigationButton>
     <Label class="action-bar-title" text="Team's Record"></Label>
 </ActionBar>
 
-<StackLayout class="form" >
-      
-  <TextField hint="Team Name" [text]="team_name"></TextField>
-  <TextField hint="Amount" [text]="amount"></TextField>
-  <Button text="Save" class="btn btn-primary m-t-20" (tap)="submit()"></Button>
+<StackLayout class="form" [formGroup]="TeamForm">
+  <Label class="text-label" text="Team"></Label> 
+  <TextField hint="Team Name" class="input-input-border" [(NgModel)]="team_name" formControlName="team_name" [text]="team_name"></TextField>
+  <Label class="text-label" text="Revenue"></Label> 
+  <TextField hint="Amount" class="input-input-border" [(NgModel)]="amount" formControlName="amount" [text]="amount"></TextField>
+  <Button text="Save" (tap)="submit(TeamForm.value)" class="btn btn-primary m-t-20"></Button>
 </StackLayout>

@@ -187,57 +187,6 @@ exports.push([module.i, "\n", ""]);
 
 /***/ }),
 
-/***/ "./app/add-team/add-team.component.css":
-/***/ (function(module, exports) {
-
-module.exports = "/* Add mobile styles for the component here.  */\n"
-
-/***/ }),
-
-/***/ "./app/add-team/add-team.component.html":
-/***/ (function(module, exports) {
-
-module.exports = "<Button text=\"add-team works!\" class=\"btn btn-primary\"></Button>"
-
-/***/ }),
-
-/***/ "./app/add-team/add-team.component.ts":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddTeamComponent", function() { return AddTeamComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("../node_modules/@angular/core/fesm5/core.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var AddTeamComponent = /** @class */ (function () {
-    function AddTeamComponent() {
-    }
-    AddTeamComponent.prototype.ngOnInit = function () {
-    };
-    AddTeamComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'app-add-team',
-            template: __webpack_require__("./app/add-team/add-team.component.html"),
-            styles: [__webpack_require__("./app/add-team/add-team.component.css")]
-        }),
-        __metadata("design:paramtypes", [])
-    ], AddTeamComponent);
-    return AddTeamComponent;
-}());
-
-
-
-/***/ }),
-
 /***/ "./app/app-routing.module.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -329,8 +278,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var nativescript_angular_nativescript_module__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(nativescript_angular_nativescript_module__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("./app/app-routing.module.ts");
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("./app/app.component.ts");
-/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("./app/home/home.component.ts");
-/* harmony import */ var _list_list_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__("./app/list/list.component.ts");
+/* harmony import */ var _modules_panel_Components_home_home_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("./app/modules/panel/Components/home/home.component.ts");
+/* harmony import */ var _modules_dashboard_Components_list_list_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__("./app/modules/dashboard/Components/list/list.component.ts");
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__("../node_modules/@angular/forms/fesm5/forms.js");
 /* harmony import */ var nativescript_angular_forms__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__("../node_modules/nativescript-angular/forms/index.js");
 /* harmony import */ var nativescript_angular_forms__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(nativescript_angular_forms__WEBPACK_IMPORTED_MODULE_7__);
@@ -339,8 +288,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var nativescript_angular_http_client__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__("../node_modules/nativescript-angular/http-client/index.js");
 /* harmony import */ var nativescript_angular_http_client__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(nativescript_angular_http_client__WEBPACK_IMPORTED_MODULE_9__);
 /* harmony import */ var _services_team_service_service__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__("./services/team-service.service.ts");
-/* harmony import */ var _add_team_add_team_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__("./app/add-team/add-team.component.ts");
-/* harmony import */ var _edit_team_edit_team_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__("./app/edit-team/edit-team.component.ts");
+/* harmony import */ var _modules_team_Components_edit_team_edit_team_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__("./app/modules/team/Components/edit-team/edit-team.component.ts");
+/* harmony import */ var _services_share_data_service__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__("./services/share-data.service.ts");
+/* harmony import */ var _modules_dashboard_Components_footer_footer_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__("./app/modules/dashboard/Components/footer/footer.component.ts");
+/* harmony import */ var _modules_dashboard_Components_header_header_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__("./app/modules/dashboard/Components/header/header.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -363,6 +314,8 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 
+
+
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
@@ -370,10 +323,11 @@ var AppModule = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
             declarations: [
                 _app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"],
-                _home_home_component__WEBPACK_IMPORTED_MODULE_4__["HomeComponent"],
-                _list_list_component__WEBPACK_IMPORTED_MODULE_5__["ListComponent"],
-                _add_team_add_team_component__WEBPACK_IMPORTED_MODULE_11__["AddTeamComponent"],
-                _edit_team_edit_team_component__WEBPACK_IMPORTED_MODULE_12__["EditTeamComponent"]
+                _modules_panel_Components_home_home_component__WEBPACK_IMPORTED_MODULE_4__["HomeComponent"],
+                _modules_dashboard_Components_list_list_component__WEBPACK_IMPORTED_MODULE_5__["ListComponent"],
+                _modules_team_Components_edit_team_edit_team_component__WEBPACK_IMPORTED_MODULE_11__["EditTeamComponent"],
+                _modules_dashboard_Components_header_header_component__WEBPACK_IMPORTED_MODULE_14__["HeaderComponent"],
+                _modules_dashboard_Components_footer_footer_component__WEBPACK_IMPORTED_MODULE_13__["FooterComponent"]
             ],
             imports: [
                 nativescript_angular_nativescript_module__WEBPACK_IMPORTED_MODULE_1__["NativeScriptModule"],
@@ -386,7 +340,7 @@ var AppModule = /** @class */ (function () {
                 // NativeScriptRouterModule.forRoot(routes),
                 _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"],
             ],
-            providers: [_services_team_service_service__WEBPACK_IMPORTED_MODULE_10__["TeamServiceService"]],
+            providers: [_services_team_service_service__WEBPACK_IMPORTED_MODULE_10__["TeamServiceService"], _services_share_data_service__WEBPACK_IMPORTED_MODULE_12__["ShareDataService"]],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]],
             schemas: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["NO_ERRORS_SCHEMA"]]
         })
@@ -405,51 +359,54 @@ var AppModule = /** @class */ (function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "routes", function() { return routes; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "navigationableComponents", function() { return navigationableComponents; });
-/* harmony import */ var _list_list_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("./app/list/list.component.ts");
-/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("./app/home/home.component.ts");
-/* harmony import */ var _edit_team_edit_team_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("./app/edit-team/edit-team.component.ts");
-/* harmony import */ var _add_team_add_team_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("./app/add-team/add-team.component.ts");
+/* harmony import */ var _modules_dashboard_Components_list_list_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("./app/modules/dashboard/Components/list/list.component.ts");
+/* harmony import */ var _modules_panel_Components_home_home_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("./app/modules/panel/Components/home/home.component.ts");
+/* harmony import */ var _modules_team_Components_edit_team_edit_team_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("./app/modules/team/Components/edit-team/edit-team.component.ts");
+/* harmony import */ var _modules_dashboard_Components_header_header_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("./app/modules/dashboard/Components/header/header.component.ts");
+/* harmony import */ var _auth_authguard_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("./auth/authguard.service.ts");
+
 
 
 
 
 var routes = [
-    { path: '', component: _home_home_component__WEBPACK_IMPORTED_MODULE_1__["HomeComponent"] },
-    { path: 'list', component: _list_list_component__WEBPACK_IMPORTED_MODULE_0__["ListComponent"] },
-    { path: 'editList', component: _edit_team_edit_team_component__WEBPACK_IMPORTED_MODULE_2__["EditTeamComponent"] },
-    { path: 'addTeam', component: _add_team_add_team_component__WEBPACK_IMPORTED_MODULE_3__["AddTeamComponent"] }
+    { path: '', component: _modules_panel_Components_home_home_component__WEBPACK_IMPORTED_MODULE_1__["HomeComponent"] },
+    { path: 'list', component: _modules_dashboard_Components_list_list_component__WEBPACK_IMPORTED_MODULE_0__["ListComponent"], canActivate: [_auth_authguard_service__WEBPACK_IMPORTED_MODULE_4__["AuthGuardService"]] },
+    { path: 'editList', component: _modules_team_Components_edit_team_edit_team_component__WEBPACK_IMPORTED_MODULE_2__["EditTeamComponent"] },
+    { path: 'head', component: _modules_dashboard_Components_header_header_component__WEBPACK_IMPORTED_MODULE_3__["HeaderComponent"] }
 ];
 var navigationableComponents = [
-    _home_home_component__WEBPACK_IMPORTED_MODULE_1__["HomeComponent"],
-    _list_list_component__WEBPACK_IMPORTED_MODULE_0__["ListComponent"],
-    _edit_team_edit_team_component__WEBPACK_IMPORTED_MODULE_2__["EditTeamComponent"],
-    _add_team_add_team_component__WEBPACK_IMPORTED_MODULE_3__["AddTeamComponent"]
+    _modules_panel_Components_home_home_component__WEBPACK_IMPORTED_MODULE_1__["HomeComponent"],
+    _modules_dashboard_Components_list_list_component__WEBPACK_IMPORTED_MODULE_0__["ListComponent"],
+    _modules_team_Components_edit_team_edit_team_component__WEBPACK_IMPORTED_MODULE_2__["EditTeamComponent"],
+    _modules_dashboard_Components_header_header_component__WEBPACK_IMPORTED_MODULE_3__["HeaderComponent"]
 ];
 
 
 /***/ }),
 
-/***/ "./app/edit-team/edit-team.component.css":
+/***/ "./app/modules/dashboard/Components/footer/footer.component.css":
 /***/ (function(module, exports) {
 
-module.exports = "/* Add mobile styles for the component here.  */\n"
+module.exports = "/* Add mobile styles for the component here.  */\n#footer{\n    border: 1px black;\n}"
 
 /***/ }),
 
-/***/ "./app/edit-team/edit-team.component.html":
+/***/ "./app/modules/dashboard/Components/footer/footer.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<StackLayout>\n<GridLayout rows=\"auto, auto, auto\">\n    <StackLayout row=\"0\" class=\"input-field\">\n        <TextField class=\"input\" hint=\"Email\" [isEnabled]=\"!processing\"\n            keyboardType=\"email\" autocorrect=\"false\"\n            autocapitalizationType=\"none\" [(ngModel)]=\"user.email\"\n            returnKeyType=\"next\" (returnPress)=\"focusPassword()\"></TextField>\n        <StackLayout class=\"hr-light\"></StackLayout>\n    </StackLayout>\n\n    <StackLayout row=\"1\" class=\"input-field\">\n        <TextField #password class=\"input\" [isEnabled]=\"!processing\"\n            hint=\"Password\" secure=\"true\" [(ngModel)]=\"user.password\"\n            [returnKeyType]=\"isLoggingIn ? 'done' : 'next'\"\n            (returnPress)=\"focusConfirmPassword()\"></TextField>\n        <StackLayout class=\"hr-light\"></StackLayout>\n    </StackLayout>\n    <ActivityIndicator rowSpan=\"2\" [busy]=\"processing\"></ActivityIndicator>\n</GridLayout>\n<Button [text]=\"Save\" [isEnabled]=\"!processing\"\n(tap)=\"submit()\" class=\"btn btn-primary m-t-20\"></Button>\n</StackLayout>"
+module.exports = "<DockLayout>\n    <Label dock=\"bottom\" height=\"60\" id=\"footer\" backgroundColor=\"yellow\" text=\"{{total}}\"></Label>\n    <Label></Label>\n     \n  </DockLayout>"
 
 /***/ }),
 
-/***/ "./app/edit-team/edit-team.component.ts":
+/***/ "./app/modules/dashboard/Components/footer/footer.component.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EditTeamComponent", function() { return EditTeamComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FooterComponent", function() { return FooterComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("../node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _services_team_service_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("./services/team-service.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -460,41 +417,258 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-var EditTeamComponent = /** @class */ (function () {
-    function EditTeamComponent() {
+
+var FooterComponent = /** @class */ (function () {
+    function FooterComponent(teamService) {
+        this.teamService = teamService;
+        this.total = 0;
     }
-    EditTeamComponent.prototype.ngOnInit = function () {
+    FooterComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.teamService.getTeams().subscribe(function (response) {
+            // console.log(response);
+            if (response && response.status === 200) {
+                _this.teams = response.data;
+                for (var i = 0; i < _this.teams.length; i++) {
+                    _this.total += _this.teams[i].amount;
+                }
+                console.log(_this.total);
+            }
+        });
     };
-    EditTeamComponent = __decorate([
+    FooterComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'app-edit-team',
-            template: __webpack_require__("./app/edit-team/edit-team.component.html"),
-            styles: [__webpack_require__("./app/edit-team/edit-team.component.css")]
+            selector: 'app-footer',
+            template: __webpack_require__("./app/modules/dashboard/Components/footer/footer.component.html"),
+            styles: [__webpack_require__("./app/modules/dashboard/Components/footer/footer.component.css")]
         }),
-        __metadata("design:paramtypes", [])
-    ], EditTeamComponent);
-    return EditTeamComponent;
+        __metadata("design:paramtypes", [_services_team_service_service__WEBPACK_IMPORTED_MODULE_1__["TeamServiceService"]])
+    ], FooterComponent);
+    return FooterComponent;
 }());
 
 
 
 /***/ }),
 
-/***/ "./app/home/home.component.css":
+/***/ "./app/modules/dashboard/Components/header/header.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ".page {\n    align-items: center;\n    flex-direction: column;\n  }\n  .form {\n    margin-left: 30;\n    margin-right: 30;\n    vertical-align: middle;\n  }\n  TextField{\n    margin-left: 16;\n    margin-right: 16;\n    margin-bottom: 10;\n    color: black;\n  }\n  Image {\n    margin-top: 10%;\n}\ninput{ \n  border:none; \n  border-bottom: 1px solid black; \n  width: 300px; \n  height: 40px; \n  } \n  #but{ \n  width: 300px; \n  height: 40px; \n  background-color: blue; \n  color: white; \n  border: 2px solid blue; \n  border-radius: 10px; \n  }  \n  \n  h1{ \n  text-align: center; \n  } \n  center{ \n  text-align: center; \n  margin: 0 auto; \n  }"
+module.exports = "/* Add mobile styles for the component here.  */\n#a1{ \n    font-size: 16; \n    color: #39ace7; \n    } \n    \n    #a2{ \n    font-size: 20; \n    }"
 
 /***/ }),
 
-/***/ "./app/home/home.component.html":
+/***/ "./app/modules/dashboard/Components/header/header.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<ActionBar title=\"C\" class=\"action-bar\">\n    <GridLayout rows=\"*,auto\" columns=\"auto,*,auto\" padding=\"0 4 0 0\" height=\"100%\" width=\"100%\"> \n        <Label id=\"a1\" row=\"0\" col=\"0\" text=\"Logout\" class=\"action-item-left\" (tap)=\"Logout()\"></Label> \n        <Label row=\"0\" col=\"1\" class=\"action-bar-title\" text=\"Team's Revenue\" horizontalAlignment=\"center\"></Label>\n        <Label id=\"a1\" row=\"0\" col=\"2\" text=\"Add\" class=\"action-item-right\" (tap)=\"addTeam()\"> \n        </Label> \n        \n        </GridLayout> \n    </ActionBar>\n"
+
+/***/ }),
+
+/***/ "./app/modules/dashboard/Components/header/header.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HeaderComponent", function() { return HeaderComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("../node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _services_team_service_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("./services/team-service.service.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("../node_modules/@angular/router/fesm5/router.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var HeaderComponent = /** @class */ (function () {
+    function HeaderComponent(getService, router) {
+        this.getService = getService;
+        this.router = router;
+    }
+    HeaderComponent.prototype.ngOnInit = function () {
+    };
+    HeaderComponent.prototype.logout = function () {
+        var _this = this;
+        this.getService.logout().subscribe(function (response) {
+            localStorage.removeItem('accessToken');
+            _this.router.navigate(['/']);
+        });
+    };
+    HeaderComponent.prototype.addTeam = function () {
+        this.router.navigate(['/editList']);
+    };
+    HeaderComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-header',
+            template: __webpack_require__("./app/modules/dashboard/Components/header/header.component.html"),
+            styles: [__webpack_require__("./app/modules/dashboard/Components/header/header.component.css")]
+        }),
+        __metadata("design:paramtypes", [_services_team_service_service__WEBPACK_IMPORTED_MODULE_1__["TeamServiceService"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]])
+    ], HeaderComponent);
+    return HeaderComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./app/modules/dashboard/Components/list/list.component.css":
+/***/ (function(module, exports) {
+
+module.exports = "/* Add mobile styles for the component here.  */\n.nameLabel {\n    font-size: 20\n}\n\n.descriptionLabel {\n    font-size: 14;\n}\n#footer{\n    border: 1px black;\n}\n#a1{ \n    font-size: 16; \n    color: #39ace7; \n    } \n    \n    #a2{ \n    font-size: 20; \n    }"
+
+/***/ }),
+
+/***/ "./app/modules/dashboard/Components/list/list.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<app-header></app-header>\n\n<RadListView class=\"list-group\" [items]=\"teams\" class=\"list-group\" (itemTap)=\"ItemSelected($event)\" (itemSwipeProgressEnded)=\"onSwipeCellFinished($event)\" \n(itemSwipeProgressStarted)=\"onSwipeCellStarted($event)\" (itemSwipeProgressChanged)=\"onCellSwiping($event)\" swipeActions=\"true\">\n    <!-- <PullToRefresh (refresh)=\"refreshMe($event)\"> -->\n    <ng-template let-item=\"item\">\n        <StackLayout class=\"list-group-item\" orientation=\"vertical\" style=\"background-color:whitesmoke\" >\n            <GridLayout>\n                <Label [text]=\"item.team_name\" ></Label>\n                <Label [text]=\"item.amount\" style.textAlignment=\"right\" ></Label>\n            </GridLayout>\n            <StackLayout height=\"1\" backgroundColor =\"black\"></StackLayout>\n        </StackLayout>\n    </ng-template>\n    <GridLayout *tkListItemSwipeTemplate columns=\"*, auto\" class=\"gridLayoutLayout\" > \n        <StackLayout id=\"delete-view\" col=\"1\" class=\"deleteViewStackLayout\" (tap)=\"onRightSwipeClick($event)\" style=\"background-color: red\"> \n        <Label text=\"delete\" class=\"swipeTemplateLabel\" verticalAlignment=\"center\" horizontalAlignment=\"center\" ></Label> \n        </StackLayout> \n        </GridLayout> \n    <!-- </PullToRefresh> -->\n</RadListView>\n<DockLayout>\n    <Label dock=\"bottom\" height=\"60\" id=\"footer\" backgroundColor=\"yellow\" text=\"{{total}}\"></Label>\n    <Label></Label>\n     \n  </DockLayout>\n\n"
+
+/***/ }),
+
+/***/ "./app/modules/dashboard/Components/list/list.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ListComponent", function() { return ListComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("../node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _services_team_service_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("./services/team-service.service.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("../node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("../node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var _services_share_data_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("./services/share-data.service.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+// class Team {
+//   constructor (public id: Number, public name: string, public revenue: number){ }
+// }
+var ListComponent = /** @class */ (function () {
+    function ListComponent(fromBuilder, teamService, router, shareData) {
+        this.fromBuilder = fromBuilder;
+        this.teamService = teamService;
+        this.router = router;
+        this.shareData = shareData;
+        this.teamArray = this.fromBuilder.array([]);
+        this.parentFormGroup = this.fromBuilder.group({
+            teamArray: this.fromBuilder.array([])
+        });
+        this.logout = function () {
+            var _this = this;
+            this.teamService.logout().subscribe(function (response) {
+                localStorage.removeItem('accessToken');
+                _this.router.navigate(['/home']);
+            });
+        };
+        this.openModal = function () {
+            this.router.navigate(['/editList']);
+        };
+        // shareData.setOption('team_name', JSON.stringify(this.teams.team_name));
+        // shareData.setOption('amount', JSON.stringify(this.teams.amount));
+    }
+    ListComponent.prototype.getTeams = function () {
+        var _this = this;
+        this.teamService.getTeams().subscribe(function (response) {
+            console.log(response);
+            if (response && response.status === 200) {
+                _this.teams = response.data;
+                // tslint:disable-next-line: prefer-const
+                // let teamArray = this.teams.map(team => this.fromBuilder.group({
+                //   name: this.fromBuilder.control(team.team_name, [Validators.required]),
+                //   amount: this.fromBuilder.control(team.amount, [Validators.required, Validators.pattern('[0-9]*')])
+                // }));
+                // this.teamArray = this.fromBuilder.array(teamArray);
+                // this.parentFormGroup = this.fromBuilder.group({
+                //   teamArray: this.teamArray
+                // });
+            }
+            else if (response && response.status === 401) {
+                _this.logout();
+            }
+        });
+    };
+    ListComponent.prototype.ItemSelected = function (args) {
+        console.log('Hi');
+        this.selected = this.teams[args.index];
+        this.shareData.setOption('team_name', JSON.stringify(this.selected));
+        // item.selected = true;
+        this.router.navigate(['/editList']);
+    };
+    ListComponent.prototype.ngOnInit = function () {
+        this.getTeams();
+    };
+    ListComponent.prototype.addTeam = function () {
+        this.router.navigate(['/addTeam']);
+    };
+    ListComponent.prototype.onCellSwiping = function (args) {
+        var swipeLimits = args.data.swipeLimits;
+        var currentItemView = args.object;
+        if (args.data.x < -200) {
+            console.log('Notify perform right action');
+        }
+    };
+    ListComponent.prototype.onSwipeCellStarted = function (args) {
+        var swipeLimits = args.data.swipeLimits;
+        var swipeView = args['object'];
+        var rightItem = swipeView.getViewById('delete-view');
+        swipeLimits.right = rightItem.getMeasuredWidth();
+        swipeLimits.threshold = rightItem.getMeasuredWidth(); // 2; 
+    };
+    ListComponent.prototype.onSwipeCellFinished = function (args) {
+    };
+    ListComponent.prototype.onRightSwipeClick = function (args) {
+        console.log('Right swipe click');
+        console.log(args.id);
+        this.teams.splice(this.teams.indexOf(args.object.bindingContext), 1);
+    };
+    ListComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-list',
+            template: __webpack_require__("./app/modules/dashboard/Components/list/list.component.html"),
+            styles: [__webpack_require__("./app/modules/dashboard/Components/list/list.component.css")]
+        }),
+        __metadata("design:paramtypes", [_angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormBuilder"], _services_team_service_service__WEBPACK_IMPORTED_MODULE_1__["TeamServiceService"],
+            _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"], _services_share_data_service__WEBPACK_IMPORTED_MODULE_4__["ShareDataService"]])
+    ], ListComponent);
+    return ListComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./app/modules/panel/Components/home/home.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ".page {\n    align-items: center;\n    flex-direction: column;\n  }\n  .form {\n    margin-left: 30;\n    margin-right: 30;\n    vertical-align: middle;\n  }\n  TextField{\n    margin-left: 16;\n    margin-right: 16;\n    margin-bottom: 10;\n    color: black;\n  }\n  Image {\n    margin-top: 10%;\n}"
+
+/***/ }),
+
+/***/ "./app/modules/panel/Components/home/home.component.html":
 /***/ (function(module, exports) {
 
 module.exports = "<ActionBar class=\"action-bar\">\n    <Label class=\"action-bar-title\" text=\"Sales Master\"></Label>\n</ActionBar>\n\n<Image src=\"res://favicon\" stretch=\"none\" horizontalAlignment=\"center\"></Image>\n  <StackLayout class=\"form\" [formGroup]=\"signUpForm\" >\n      \n    <TextField class=\"input\" formControlName=\"email\"  hint=\"Email Address\" keyboardType=\"email\" autocorrect=\"false\"\n      autocapitalizationType=\"none\"></TextField>\n    <TextField class=\"input\" formControlName=\"password\" hint=\"Password\" secure=\"true\"></TextField>\n    <Button text=\"Log In\" class=\"btn btn-primary m-t-20\" (tap)=\"submit(signUpForm.value)\"></Button>\n  </StackLayout>\n"
 
 /***/ }),
 
-/***/ "./app/home/home.component.ts":
+/***/ "./app/modules/panel/Components/home/home.component.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -518,7 +692,7 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 // import * as localStorage from 'nativescript-localstorage';
-var Sqlite = __webpack_require__("../node_modules/nativescript-sqlite/sqlite.js");
+// var Sqlite = require('nativescript-sqlite');
 var HomeComponent = /** @class */ (function () {
     function HomeComponent(fb, teamService, router) {
         this.fb = fb;
@@ -526,14 +700,16 @@ var HomeComponent = /** @class */ (function () {
         this.router = router;
         this.title = 'app-name';
         this.signUpForm = this.fb.group({
-            email: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
-            password: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required]
+            email: ['saral@jungleworks.com', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
+            password: ['123456', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required]
         });
         this.submit = function (data) {
             var _this = this;
+            // tslint:disable-next-line: no-shadowed-variable
             this.teamService.login(this.signUpForm.value).subscribe(function (data) {
                 _this.userdata = data;
                 console.log(_this.userdata);
+                // tslint:disable-next-line: triple-equals
                 if (_this.userdata && _this.userdata.status == 200) {
                     console.log('Sorryif');
                     __webpack_require__("../node_modules/nativescript-localstorage/localstorage.js");
@@ -545,18 +721,18 @@ var HomeComponent = /** @class */ (function () {
                 }
             });
         };
-        this.people = [];
-        (new Sqlite("my.db").then(function (db) {
-            db.execSQL("Create Table (id INTEGER PRIMARY KEY AUTO");
-        }));
+        // this.people = [];
+        // (new Sqlite("my.db").then(db => {
+        //   db.execSQL("Create Table (id INTEGER PRIMARY KEY AUTO")
+        // }))
     }
     HomeComponent.prototype.ngOnInit = function () {
     };
     HomeComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-home',
-            template: __webpack_require__("./app/home/home.component.html"),
-            styles: [__webpack_require__("./app/home/home.component.css")]
+            template: __webpack_require__("./app/modules/panel/Components/home/home.component.html"),
+            styles: [__webpack_require__("./app/modules/panel/Components/home/home.component.css")]
         }),
         __metadata("design:paramtypes", [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"], _services_team_service_service__WEBPACK_IMPORTED_MODULE_3__["TeamServiceService"], _angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"]])
     ], HomeComponent);
@@ -567,30 +743,31 @@ var HomeComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./app/list/list.component.css":
+/***/ "./app/modules/team/Components/edit-team/edit-team.component.css":
 /***/ (function(module, exports) {
 
-module.exports = "/* Add mobile styles for the component here.  */\n.nameLabel {\n    font-size: 20\n}\n\n.descriptionLabel {\n    font-size: 14;\n}"
+module.exports = ".page {\n  align-items: center;\n  flex-direction: column;\n}\n.form {\n  margin-left: 30;\n  margin-right: 30;\n  vertical-align: middle;\n}\nTextField{\n  margin-left: 16;\n  margin-right: 16;\n  margin-bottom: 10;\n  color: black;\n}\nImage {\n  margin-top: 10%;\n}\ninput{ \nborder:none; \nborder-bottom: 1px solid black; \nwidth: 300px; \nheight: 40px; \n} \n#but{ \nwidth: 300px; \nheight: 40px; \nbackground-color: blue; \ncolor: white; \nborder: 2px solid blue; \nborder-radius: 10px; \n}  \n\nh1{ \ntext-align: center; \n} \ncenter{ \ntext-align: center; \nmargin: 0 auto; \n}"
 
 /***/ }),
 
-/***/ "./app/list/list.component.html":
+/***/ "./app/modules/team/Components/edit-team/edit-team.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<ActionBar class=\"action-bar\">\n    \n    <Label text=\"Go Back\" text-align=\"left\"></Label>\n    <Label class=\"action-bar-title\" text=\"Team's Revenue\"></Label>\n    <ActionItem text=\"Hello\" ></ActionItem>\n</ActionBar>\n\n<RadListView class=\"list-group\" [items]=\"teams\" class=\"list-group\" selectionBehavior=\"Press\" itemSelected=\"ItemSelected\">\n    <!-- <PullToRefresh (refresh)=\"refreshMe($event)\"> -->\n    <ng-template let-item=\"item\">\n        <StackLayout class=\"list-group-item\" orientation=\"vertical\">\n            <GridLayout>\n                <Label [text]=\"item.team_name\" ></Label>\n                <Label [text]=\"item.amount\" style.textAlignment=\"right\" ></Label>\n            </GridLayout>\n            <StackLayout height=\"1\" backgroundColor =\"black\"></StackLayout>\n        </StackLayout>\n    </ng-template>\n    <!-- </PullToRefresh> -->\n</RadListView>"
+module.exports = "<ActionBar class=\"action-bar\">\n    <NavigationButton text=\"Go Back\" android.systemIcon=\"ic_menu_back\" tap=\"onNavBtnTap\"></NavigationButton>\n    <Label class=\"action-bar-title\" text=\"Team's Record\"></Label>\n</ActionBar>\n\n<StackLayout class=\"form\" [formGroup]=\"TeamForm\">\n      \n  <TextField hint=\"Team Name\" class=\"input-input-border\" [(NgModel)]=\"team_name\" formControlName=\"team_name\" [text]=\"team_name\"></TextField>\n  <TextField hint=\"Amount\" class=\"input-input-border\" [(NgModel)]=\"amount\" formControlName=\"amount\" [text]=\"amount\"></TextField>\n  <Button text=\"Save\" class=\"btn btn-primary m-t-20\" (tap)=\"submit(TeamForm.value)\"></Button>\n  <Button text=\"Delete\" class=\"btn btn-primary m-t-20\" (tap)=\"delete()\"></Button>\n</StackLayout>\n"
 
 /***/ }),
 
-/***/ "./app/list/list.component.ts":
+/***/ "./app/modules/team/Components/edit-team/edit-team.component.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ListComponent", function() { return ListComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EditTeamComponent", function() { return EditTeamComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("../node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _services_team_service_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("./services/team-service.service.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("../node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _services_share_data_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("./services/share-data.service.ts");
+/* harmony import */ var _services_team_service_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("./services/team-service.service.ts");
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("../node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("../node_modules/@angular/router/fesm5/router.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -604,66 +781,117 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
-// class Team {
-//   constructor (public id: Number, public name: string, public revenue: number){ }
-// }
-var ListComponent = /** @class */ (function () {
-    function ListComponent(fromBuilder, teamService, router) {
-        this.fromBuilder = fromBuilder;
+
+var EditTeamComponent = /** @class */ (function () {
+    function EditTeamComponent(fb, shareData, teamService, router) {
+        this.fb = fb;
+        this.shareData = shareData;
         this.teamService = teamService;
         this.router = router;
-        this.teamArray = this.fromBuilder.array([]);
-        this.parentFormGroup = this.fromBuilder.group({
-            teamArray: this.fromBuilder.array([])
+        this.teams = [];
+        this.TeamForm = this.fb.group({
+            team_name: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_3__["Validators"].required],
+            amount: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_3__["Validators"].required]
         });
-        this.logout = function () {
+        this.submit = function (id, teams) {
             var _this = this;
-            this.teamService.logout().subscribe(function (response) {
-                localStorage.removeItem('accessToken');
-                _this.router.navigate(['/home']);
+            console.log('jra h');
+            var data = {
+                team_id: this.id,
+                team_name: this.TeamForm.get('team_name').value,
+                amount: this.TeamForm.get('amount').value
+            };
+            console.log(data.team_name);
+            this.teamService.updateTeam(data).subscribe(function (response) {
+                // console.log(response && response.status == 200);
+                if (response && response.status === 200) {
+                    console.log('H121');
+                    alert('Hello World');
+                    _this.router.navigate(['/list']);
+                    _this.teams[id].team_name = data.team_name;
+                    _this.teams[id].amount = data.amount;
+                }
             });
+            // console.log(id, teams);
+        };
+        this.delete = function () {
+            var _this = this;
+            console.log('jra h');
+            var data = {
+                team_id: this.id,
+            };
+            console.log(data.team_id);
+            this.teamService.deleteTeam(data).subscribe(function (response) {
+                console.log(response);
+                if (response && response.status == 200) {
+                    console.log('H121');
+                    //  alert('Hello World');
+                    _this.router.navigate(['/list']);
+                }
+            });
+            // console.log(id, teams);
         };
     }
-    ListComponent.prototype.getTeams = function () {
-        var _this = this;
-        this.teamService.getTeams().subscribe(function (response) {
-            console.log(response);
-            if (response && response.status === 200) {
-                _this.teams = response.data;
-                // tslint:disable-next-line: prefer-const
-                var teamArray = _this.teams.map(function (team) { return _this.fromBuilder.group({
-                    name: _this.fromBuilder.control(team.team_name, [_angular_forms__WEBPACK_IMPORTED_MODULE_3__["Validators"].required]),
-                    amount: _this.fromBuilder.control(team.amount, [_angular_forms__WEBPACK_IMPORTED_MODULE_3__["Validators"].required, _angular_forms__WEBPACK_IMPORTED_MODULE_3__["Validators"].pattern('[0-9]*')])
-                }); });
-                _this.teamArray = _this.fromBuilder.array(teamArray);
-                _this.parentFormGroup = _this.fromBuilder.group({
-                    teamArray: _this.teamArray
-                });
-            }
-            else if (response && response.status === 401) {
-                _this.logout();
-            }
-        });
+    EditTeamComponent.prototype.ngOnInit = function () {
+        this.teams = this.shareData.getOption();
+        this.id = JSON.parse(this.teams).team_id;
+        this.team_name = JSON.parse(this.teams).team_name;
+        this.amount = JSON.parse(this.teams).amount;
+        console.log(this.teams);
     };
-    ListComponent.prototype.itemSelected = function (args) {
-        var item = this.teams.getItem(args.index);
-        item.selected = true;
-    };
-    ListComponent.prototype.ngOnInit = function () {
-        this.getTeams();
-    };
-    ListComponent.prototype.addTeam = function () {
-        this.router.navigate(['addTeam']);
-    };
-    ListComponent = __decorate([
+    EditTeamComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'app-list',
-            template: __webpack_require__("./app/list/list.component.html"),
-            styles: [__webpack_require__("./app/list/list.component.css")]
+            selector: 'app-edit-team',
+            template: __webpack_require__("./app/modules/team/Components/edit-team/edit-team.component.html"),
+            styles: [__webpack_require__("./app/modules/team/Components/edit-team/edit-team.component.css")]
         }),
-        __metadata("design:paramtypes", [_angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormBuilder"], _services_team_service_service__WEBPACK_IMPORTED_MODULE_1__["TeamServiceService"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]])
-    ], ListComponent);
-    return ListComponent;
+        __metadata("design:paramtypes", [_angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormBuilder"], _services_share_data_service__WEBPACK_IMPORTED_MODULE_1__["ShareDataService"],
+            _services_team_service_service__WEBPACK_IMPORTED_MODULE_2__["TeamServiceService"], _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"]])
+    ], EditTeamComponent);
+    return EditTeamComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./auth/authguard.service.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AuthGuardService", function() { return AuthGuardService; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("../node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("../node_modules/@angular/router/fesm5/router.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var AuthGuardService = /** @class */ (function () {
+    function AuthGuardService(router) {
+        this.router = router;
+    }
+    AuthGuardService.prototype.canActivate = function () {
+        if (localStorage.getItem('accessToken')) {
+            return true;
+        }
+        this.router.navigate(['/']);
+        return false;
+    };
+    AuthGuardService = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
+            providedIn: 'root',
+        }),
+        __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"]])
+    ], AuthGuardService);
+    return AuthGuardService;
 }());
 
 
@@ -742,6 +970,44 @@ module.exports = {"android":{"v8Flags":"--expose_gc"},"main":"main.js","name":"m
 
 /***/ }),
 
+/***/ "./services/share-data.service.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ShareDataService", function() { return ShareDataService; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("../node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+var ShareDataService = /** @class */ (function () {
+    function ShareDataService() {
+        this.data = [];
+    }
+    ShareDataService.prototype.setOption = function (option, value) {
+        // debugger;
+        this.data = value;
+        console.log(this.data);
+    };
+    ShareDataService.prototype.getOption = function () {
+        return this.data;
+    };
+    ShareDataService = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
+            providedIn: 'root'
+        })
+    ], ShareDataService);
+    return ShareDataService;
+}());
+
+
+
+/***/ }),
+
 /***/ "./services/team-service.service.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -764,16 +1030,6 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 var TeamServiceService = /** @class */ (function () {
-    // updateTeam(data): Observable<any> {
-    //   let accessToken = localStorage.getItem('accessToken');
-    //   return this.http.post<any>(environment.API_URL + 'teams/edit',
-    //     Object.assign({ 'access_token': accessToken }, data));
-    // }
-    // deleteTeam(data): Observable<any> {
-    //   let accessToken = localStorage.getItem('accessToken');
-    //   return this.http.post<any>(environment.API_URL + 'teams/delete',
-    //     Object.assign({ 'access_token': accessToken }, data));
-    // }
     function TeamServiceService(http) {
         this.http = http;
     }
@@ -787,6 +1043,18 @@ var TeamServiceService = /** @class */ (function () {
     TeamServiceService.prototype.logout = function () {
         var accessToken = localStorage.getItem('accessToken');
         return this.http.post(_environments_environment__WEBPACK_IMPORTED_MODULE_2__["environment"].API_URL + 'user/logout', { 'access_token': accessToken });
+    };
+    TeamServiceService.prototype.updateTeam = function (data) {
+        var accessToken = localStorage.getItem('accessToken');
+        return this.http.post(_environments_environment__WEBPACK_IMPORTED_MODULE_2__["environment"].API_URL + 'teams/edit', Object.assign({ 'access_token': accessToken }, data));
+    };
+    TeamServiceService.prototype.addTeam = function (data) {
+        var accessToken = localStorage.getItem('accessToken');
+        return this.http.post(_environments_environment__WEBPACK_IMPORTED_MODULE_2__["environment"].API_URL + 'teams/add', Object.assign({ 'access_token': accessToken }, data));
+    };
+    TeamServiceService.prototype.deleteTeam = function (data) {
+        var accessToken = localStorage.getItem('accessToken');
+        return this.http.post(_environments_environment__WEBPACK_IMPORTED_MODULE_2__["environment"].API_URL + 'teams/delete', Object.assign({ 'access_token': accessToken }, data));
     };
     TeamServiceService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
